@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/Banner/Banner.png" alt="FallAlert Banner" width="100%">
+  <img src="docs/Banner/Banner.jpg" alt="FallAlert Banner" width="100%">
 </p>
 
 <h1 align="center">FallAlert</h1>
@@ -59,7 +59,7 @@ The primary objective of the project is to reduce emergency response time and im
 # System Architecture
 
 <p align="center">
-  <img src="docs/Architecture/System Architecture.png" width="900">
+  <img src="docs/Architecture/System Architecture.jpg" width="900">
 </p>
 
 ---
@@ -122,7 +122,7 @@ When a fall is detected:
 # Detection Workflow
 
 <p align="center">
-  <img src="docs/diagrams/workflow.png" width="800">
+  <img src="docs/diagrams/workflow.jpg" width="800">
 </p>
 
 ---
@@ -192,31 +192,31 @@ Fall Detection System
 
 ## Main Dashboard
 
-![Dashboard](docs/screenshots/Dashboard Home.png)
+![Dashboard](docs/screenshots/Dashboard.png)
 
 ---
 
 ## Alert Monitoring
 
-![Alerts](docs/screenshots/Alerts Page.png)
+![Alerts](docs/screenshots/Alerts-Page.png)
 
 ---
 
 ## Fall History
 
-![Device Status](docs/screenshots/Fall History.png)
+![Device Status](docs/screenshots/Fall-History.png)
 
 ---
 
 ## Circuit Image
 
-![Circuit](Docs\Diagrams\Circuit image.png)
+![Circuit](Docs\Diagrams\Circuit_image.jpg)
 
 ---
 
 ## Data Flow 
 
-![Circuit](Docs\Diagrams\Dataflow.png)
+![Circuit](Docs\Diagrams\Dataflow.jpg)
 
 ---
 
@@ -284,7 +284,7 @@ The architecture demonstrates how embedded systems, IoT communication, cloud ser
 
 ## K Nithin KUMAR Goud
 
-Bachelor of Engineering
+Bachelor of Engineering , ECE
 
 Embedded Systems • IoT • Machine Learning
 
