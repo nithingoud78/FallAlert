@@ -59,7 +59,7 @@ The primary objective of the project is to reduce emergency response time and im
 # System Architecture
 
 <p align="center">
-  <img src="docs/Architecture/System Architecture.jpg" width="900">
+  <img src="Docs/Architecture/System Architecture.jpg" width="900">
 </p>
 
 ---
@@ -122,7 +122,7 @@ When a fall is detected:
 # Detection Workflow
 
 <p align="center">
-  <img src="docs/diagrams/workflow.jpg" width="800">
+  <img src="Docs/diagrams/workflow.jpg" width="800">
 </p>
 
 ---
@@ -192,19 +192,19 @@ Fall Detection System
 
 ## Main Dashboard
 
-![Dashboard](docs/screenshots/Dashboard.png)
+![Dashboard](Docs/screenshots/Dashboard.png)
 
 ---
 
 ## Alert Monitoring
 
-![Alerts](docs/screenshots/Alerts-Page.png)
+![Alerts](Docs/screenshots/Alerts-Page.png)
 
 ---
 
 ## Fall History
 
-![Device Status](docs/screenshots/Fall-History.png)
+![Device Status](Docs/screenshots/Fall-History.png)
 
 ---
 
