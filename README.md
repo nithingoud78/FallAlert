@@ -122,7 +122,7 @@ When a fall is detected:
 # Detection Workflow
 
 <p align="center">
-  <img src="Docs/diagrams/workflow.jpg" width="800">
+  <img src="Docs/Diagrams/Workflow.jpg" width="800">
 </p>
 
 ---
@@ -192,31 +192,31 @@ Fall Detection System
 
 ## Main Dashboard
 
-![Dashboard](Docs/screenshots/Dashboard.png)
+![Dashboard](Docs/Screenshots/Dashboard.png)
 
 ---
 
 ## Alert Monitoring
 
-![Alerts](Docs/screenshots/Alerts-Page.png)
+![Alerts](Docs/Screenshots/Alerts-Page.png)
 
 ---
 
 ## Fall History
 
-![Device Status](Docs/screenshots/Fall-History.png)
+![Device Status](Docs/Screenshots/Fall-History.png)
 
 ---
 
 ## Circuit Image
 
-![Circuit](Docs\Diagrams\Circuit_image.jpg)
+![Circuit](Docs/Diagrams/Circuit-Image.png)
 
 ---
 
 ## Data Flow 
 
-![Circuit](Docs\Diagrams\Dataflow.jpg)
+![Circuit](Docs/Diagrams/Dataflow.jpg)
 
 ---
 
