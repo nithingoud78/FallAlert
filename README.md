@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/Banner/Banner.jpg" alt="FallAlert Banner" width="100%">
+  <img src="Docs/Banner/Banner.jpg" alt="FallAlert Banner" width="100%">
 </p>
 
 <h1 align="center">FallAlert</h1>
