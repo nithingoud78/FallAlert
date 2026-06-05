@@ -1,70 +1,165 @@
-# Getting Started with Create React App
+# Frontend Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Frontend Dashboard provides a real-time monitoring interface for the Fall Detection System. It enables users to view fall alerts, monitor device status, access location information, and analyze recorded events through a web-based dashboard.
+
+---
+
+## Features
+
+* Real-time fall alert monitoring
+* Device status visualization
+* Event history tracking
+* GPS location display
+* Responsive user interface
+* Backend API integration
+* Live data updates
+
+---
+
+## Technology Stack
+
+* React
+* JavaScript
+* Axios
+* Socket.IO Client
+* HTML5
+* CSS3
+
+---
+
+## Project Structure
+
+```text
+frontend/
+│
+├── public/
+├── src/
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+---
+
+## Prerequisites
+
+Before running the frontend application, ensure the following are installed:
+
+* Node.js
+* npm (Node Package Manager)
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## Installation
+
+Install project dependencies:
+
+```bash
+npm install
+```
+
+---
 
 ## Available Scripts
 
-In the project directory, you can run:
+### Start Development Server
 
-### `npm start`
+```bash
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the application in development mode.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open:
 
-### `npm test`
+```text
+http://localhost:3000
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The page automatically reloads when changes are made.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Run Tests
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Launches the test runner in interactive watch mode.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Build for Production
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Creates an optimized production build in the `build` directory.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Features:
 
-## Learn More
+* Optimized bundle size
+* Minified assets
+* Production-ready deployment files
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Eject Configuration
 
-### Code Splitting
+```bash
+npm run eject
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Warning:** This operation is irreversible.
 
-### Analyzing the Bundle Size
+Ejecting copies all build configurations and dependencies into the project, allowing complete customization of the build process.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Backend Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The frontend communicates with the backend services to:
 
-### Advanced Configuration
+* Receive fall detection alerts
+* Display device information
+* Retrieve event history
+* Display GPS location data
+* Visualize monitoring information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To create a production-ready build:
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy the generated contents of the `build` folder to your preferred hosting platform.
+
+---
+
+## Future Enhancements
+
+* Dark Mode Support
+* Advanced Analytics Dashboard
+* Multi-Device Monitoring
+* Real-Time Notifications
+* Mobile Responsive Improvements
+* User Authentication
+
+---
+
+## License
+
+This project is part of the Fall Detection System repository and follows the repository license.

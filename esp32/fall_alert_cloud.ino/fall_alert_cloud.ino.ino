@@ -10,7 +10,7 @@ MPU6050 mpu;
 
 #define BUZZER_PIN 25
 
-// 🔴 ML API (Render)
+// 🔴 ML API
 String mlURL = "https://ml-api-54tg.onrender.com/predict";
 
 // 🔴 Cloud API
@@ -63,7 +63,7 @@ void loop() {
   Serial.print("Diff: ");
   Serial.println(diff);
 
-  // 🔴 PRIMARY FALL DETECTION (YOUR WORKING LOGIC)
+  // 🔴 FALL DETECTION
   if(diff > 0.4 && magnitude > 2.3 && millis() - lastTrigger > 5000){
 
     Serial.println("🚨 FALL DETECTED");
@@ -76,7 +76,7 @@ void loop() {
     // ☁️ CLOUD ALERT
     sendAlert();
 
-    // 🔵 OPTIONAL ML CALL (DOES NOT AFFECT LOGIC)
+    // 🔵 ML CALL
     callML(ax, ay, az, gx, gy, gz);
 
     lastTrigger = millis();
@@ -87,7 +87,7 @@ void loop() {
   delay(100);
 }
 
-// 🔵 ML FUNCTION (OPTIONAL — SAFE)
+// 🔵 ML FUNCTION
 void callML(int16_t ax, int16_t ay, int16_t az, int16_t gx, int16_t gy, int16_t gz){
 
   if(WiFi.status()==WL_CONNECTED){
@@ -121,7 +121,7 @@ void callML(int16_t ax, int16_t ay, int16_t az, int16_t gx, int16_t gy, int16_t 
   }
 }
 
-// 🔴 CLOUD ALERT FUNCTION
+// 🔴 CLOUD ALERT FUNCTION (STATIC LOCATION)
 void sendAlert(){
 
   if(WiFi.status()==WL_CONNECTED){
@@ -131,8 +131,11 @@ void sendAlert(){
     http.begin(cloudURL);
     http.addHeader("Content-Type","application/json");
 
+    // Static coordinates (same as your old working setup)
     String jsonData =
-      "{\"deviceId\":\"ESP32\",\"latitude\":17.385,\"longitude\":78.486,\"fallDetected\":true}";
+      "{\"deviceId\":\"ESP32\",\"latitude\":17.385,"
+      "\"longitude\":78.486,"
+      "\"fallDetected\":true}";
 
     int res = http.POST(jsonData);
 
